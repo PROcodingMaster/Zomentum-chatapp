@@ -1,0 +1,49 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+}
+
+html{
+    font-size: 10px;
+}
+
+/* Global Classes */ 
+.message-row{
+    margin-bottom: 20px;
+    display: grid;
+}
+.message-text{
+    margin-top: 20px;
+    padding: 9px 14px;
+    font-size: 1.6rem;
+    margin-bottom: 5px;
+}
+.message-time{
+    font-size: 1.3rem;
+    color:#777;
+}
+.you-message .message-text{
+    background: rgb(11, 175, 235);
+    color: #eee;
+    border-radius: 14px 24px 0 14px;
+    border:2px solid #3bb4f0ad;
+}
+.other-message .message-text{
+    background: rgb(255, 125, 1);
+    color: #111;
+    border-radius: 24px 14px 14px 0px;
+    border:1px solid rgba(0, 0, 0, 0.354);
+}
+.you-message{
+    justify-content: end;
+    justify-items: end;
+}
+.other-message{
+    justify-content: start;
+    justify-items: start;
+}

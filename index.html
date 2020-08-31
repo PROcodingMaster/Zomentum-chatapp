@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatapp</title>
+    
+    <!-- Link google FONT roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+    <!-- Link bootstrap -->
+    <link rel="stylesheet" href="./Externas/bootstrap.min.css">
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="stylesheet.css">
+
+    
+
+    <!-- Font awsome link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <div class="container">
+<!-- ========================================== Start Top heading ========================================== -->
+        <div class="top-header">
+            <p>Welcome back, Aneesh</p>
+        </div>
+<!-- ========================================== End Top heading ========================================== -->
+        <div class="row">
+
+<!-- ============---------------------Start main chat BOX -------------------================= -->
+            <div id="chat-box" class="col-md-12">
+    
+    <!-- =========Start ROW 1======== -->
+    
+        <!-- ================= start Main COL-1 (search box)================================= -->
+                <div class="row">
+                    <div class="col-sm-3" id="search-box">
+                        <input type="text" placeholder="Search">
+                    </div>
+         <!-- ================= end Main COL-1 (search box)================================= -->
+
+         <!-- ================= start Main COL-2 (title box)================================= -->
+                    <div class="col-sm-9" id="chat-title">
+                        <img src="./img/My pic mount.jpg" alt="">
+                        <span>.</span>
+                        <a href="#" id="about-contact">
+                            <p class="chat-title-name">Alex Mason</p>
+                            <p class="chat-info">Click here for contact info</p>
+                        </a>
+                    </div>
+         <!-- ================= end Main COL-2 (title box)================================= -->
+                </div>
+        <!-- =========End ROW 1======== -->
+
+
+    <!-- =========Start ROW 2======== -->
+                <div class="row">
+                <!-- ========================Start COL-1 (all chats box)=============== -->
+                
+                    <div class="col-sm-3" id="all-chat-box">
+                        <div class="chat-person active" id="alex">
+                            <img src="./img/My pic mount.jpg" alt="">
+                            <div class="chat-details">
+                                <p class="chat-name">Alex Mason</p>
+                                <p class="chat-date">2:00PM</p>
+                                <p class="chat-text"><i class="fas fa-check-double"></i>You bet it is ;)</p>
+                                
+                            </div>
+                        </div>
+                        <div class="chat-person" id="john">
+                            <img src="./img/man 3.jpg" alt="">
+                            <div class="chat-details">
+                                <p class="chat-name">John Wick</p>
+                                <p class="chat-date">6:45PM</p>
+                                <p class="chat-text">you working again?</p>
+                                
+                            </div>
+                        </div>
+                        <div class="chat-person">
+                            <img src="./img/man 4.jpg" alt="">
+                            <div class="chat-details">
+                                <p class="chat-name">Bruce Wayne</p>
+                                <p class="chat-date">4:06PM</p>
+                                <p class="chat-text"><i class="fas fa-check-double"></i>Me too, I have heard a lot about that company.</p>
+                                
+                            </div>
+                        </div>
+                        <div class="chat-person">
+                            <img src="./img/man 5.jpg" alt="">
+                            <div class="chat-details">
+                                <p class="chat-name">Barry Allen</p>
+                                <p class="chat-date">2 days ago</p>
+                                <p class="chat-text">Allright, I'll see you there.</p>
+                                
+                            </div>
+                        </div>
+                        <div class="chat-person">
+                            <img src="./img/Women 1.jpg" alt="">
+                            <div class="chat-details">
+                                <p class="chat-name">Jenifer</p>
+                                <p class="chat-date">1 month ago</p>
+                                <p class="chat-text">Very funny</p>
+                                
+                            </div>
+                        </div>
+                        <div class="chat-person">
+                            <img src="./img/man 6.jpg" alt="">
+                            <div class="chat-details">
+                                <p class="chat-name">Joel Smith</p>
+                                <p class="chat-date">1 year ago</p>
+                                <p class="chat-text"><i class="fas fa-check-double"></i>I made this on my own.</p>
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- ========================End COL-1 (all chats box)=============== -->
+
+                    <!-- ========================Start COL-2 (main chat)=============== -->
+                    
+                    <div class="col-sm-9" id="chat-alex">
+                        
+                        <div class="message-row you-message">
+                            <div class="message-text">You bet it is ;)</div>
+                            <div class="message-time">2:00pm</div>
+                        </div>
+                        <div class="message-row other-message">
+                            <div class="message-text">Is that application responsive ?</div>
+                            <div class="message-time">1:53pm</div>
+                        </div>
+
+                        <div class="message-row you-message">
+                            <div class="message-text">The bottom part bsically, above 2 rows are complete.</div>
+                            <div class="message-time">1:43pm</div>
+                        </div>
+                        <div class="message-row other-message">
+                            <div class="message-text">So, how much is left?</div>
+                            <div class="message-time">1:40pm</div>
+                        </div>
+
+                        <div class="message-row you-message">
+                            <div class="message-text">Yep, thats the one.</div>
+                            <div class="message-time">1:34pm</div>
+                        </div>
+                        <div class="message-row other-message">
+                            <div class="message-text">That chat UI one ?</div>
+                            <div class="message-time">1:31pm</div>
+                        </div>
+
+                        <div class="message-row you-message">
+                            <div class="message-text">N'thing, just compeleting my project that I told you about.</div>
+                            <div class="message-time">1:30pm</div>
+                        </div>
+                        <div class="message-row other-message">
+                            <div class="message-text">Hey, Whats Up ?</div>
+                            <div class="message-time">1:24pm</div>
+                        </div>
+
+                    </div>
+
+                <!-- ========================End COL-2 (main chat)=============== -->
+
+
+                </div>
+    
+    <!-- =========End ROW 2======== -->
+
+
+                <!-- ============Start COL-1 (Add new chat)================= -->
+                
+                <div class="row">
+                    <div class="col-sm-3" id="new-chat">
+                        <p class="add-chat">+</p>
+                        <div class="new-chat">
+                            <p>Start new chat</p>
+                        </div>
+                    </div>
+                <!-- ============End COL-1 (Add new chat)================= -->
+
+                <!-- ============Start COL-2 (Type message)================= -->
+                    <div class="col-sm-9" id="type-message">
+                        <img src="./img/Attachment Logo.png" alt="">
+                        <input type="text" placeholder="Type a message">
+                    </div>
+                <!-- ============End COL-2 (Type message)================= -->
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Link Jquerry 3.5.1 file -->
+    <script src="./Externas/jquery.3.5.1.js"></script>
+
+    <!-- link bootstrap JS -->
+    <script src="./Externas/bootstrap.min.js"></script>
+
+    <!-- Link JS -->
+    <script src="./JavaScript/script.js"></script>
+</body>
+</html>

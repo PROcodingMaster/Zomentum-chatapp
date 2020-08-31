@@ -1,0 +1,243 @@
+/* Import global CSS */ 
+@import url(./css/global.css);
+
+/* Import responsive CSS */ 
+@import url(./css/responsive.css);
+
+/* Import variable CSS */ 
+@import url(./css/variables.css);
+
+body{
+    display: grid;
+    place-items:center;
+    font-family: 'Roboto', sans-serif;
+
+    /*  css for BG image */ 
+    background-image:url(./img/Leaves\ BG.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+.top-header{
+    position: relative;
+    text-align: center;
+    top: -4%;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: -40px;
+    background:linear-gradient(to right, #5ae46f 40%, #783bf1 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#chat-box{
+    margin:0;
+    padding: 0px 15px;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+/* =============================START TOP ROW============================================ */ 
+#search-box{
+    height: 80px;
+    background:var(--gradient-color);
+    padding: 20px 10px;
+    border-radius: 10px 0 0 0;
+    border: none;
+}
+#search-box input{
+    margin: 10px 25px;
+    width: 80%;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 4px 25px;
+    /* CSS for search icon */ 
+    background-image: url(./img/Search\ icon.png);
+    background-position: left;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position-x: 3px;
+    outline: none;
+}
+
+#chat-title{
+    background:var(--gradient-color);
+    background: rgba(238, 238, 238, 0.803);
+    width: 79.4%;
+    border-radius: 0 10px 0 0;
+}
+#chat-title a{
+    color: black;
+}
+.chat-title-name{
+    display: inline-block;
+    position: relative;
+    top:0;
+    padding: 10px 20px;
+    font-size: 30px;
+}
+.chat-info{
+    position: absolute;
+    left: 12%;
+    top: 65%;
+    font-size: 1rem;
+}
+#chat-title img{
+    cursor: pointer;
+    display: inline-block;
+    width: 60px;
+    border-radius: 100%;
+    margin: 10px 0 ;
+    border:4px solid rgb(32, 243, 12);
+}
+#chat-title span{
+    position: absolute;
+    color: rgb(32, 243, 12);
+    font-size: 100px;
+    z-index: 2;
+    top: -50%;
+    left: 7%;
+}
+/* =============================END TOP ROW============================================ */ 
+
+
+
+
+/* =============================START MIDDLE ROW============================================ */ 
+#all-chat-box{
+    background:linear-gradient(to bottom, rgb(74, 169, 236), rgb(13, 228, 171));
+    height: 400px;
+    overflow-y:scroll;
+    overflow-x: hidden;
+}
+.chat-person{
+    cursor: pointer;
+    height: 110px;
+    background:white;
+    color: black;
+    width: 285px;
+    padding: 0 10px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.183);
+    border-right: 20px solid rgba(0, 0, 0, 0.183);
+}
+.chat-person.active,.chat-person:focus,.chat-person:hover{
+    background:var(--hover-color);
+}
+.chat-person img{
+    display: inline-block;
+    margin-bottom: 30px;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+}
+.chat-details{
+    display: inline-block;
+    margin: 20px 5px;
+}
+.fa-check-double{
+    font-size: 1.2rem;
+    color: rgb(0, 115, 255);
+    padding-right:5px ;
+}
+.chat-name{
+    display: inline-start;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.chat-text{
+    opacity: 0.8;
+    padding: 0 5px;
+    width: 120px;
+    line-height: 1;
+    font-size: 1.2rem;
+    overflow-inline: hidden;
+}
+.chat-date{
+    position: absolute;
+    opacity: 0.7;
+    display: inline-end;
+    right: 10px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+/* =======================START CHAT WINDOW (aneesh)================ */ 
+#chat-alex{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0 20px;
+    height: 400px;
+    overflow-x: scroll;
+    background-image:url(./img/bg.jpeg) ;
+}
+/* =======================END CHAT WINDOW (aneesh)================ */ 
+#chat-john{
+    display: none;
+    flex-direction: column-reverse;
+    padding: 0 20px;
+    height: 500px;
+    overflow-x: scroll;
+}
+
+/* =============================END MIDDLE ROW============================================ */ 
+
+
+
+/* =============================START BOTTOM ROW============================================ */ 
+#new-chat{
+    background:var(--gradient-color);
+    height: 80px;
+    text-align: center;
+    padding: 20px;
+    font-size: 3rem;
+    border-radius: 0 0 0 10px;
+}
+.add-chat{
+    display: inline-block;
+    background: var(--blue-color);
+    color: white;
+    font-weight: bold;
+    width: 55px;
+    border-radius: 100%;
+    border: 4px solid white;
+    cursor: pointer;
+}
+.new-chat{
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 600;
+    opacity: 0.5;
+}
+
+
+/* ------------------Start 2nd COLOUM--------------- */ 
+#type-message{
+    padding:20px;
+    background: var(--gray-white-color);
+    border-radius: 0 0 14px 0;
+}
+#type-message img{
+    width: 30px;
+}
+#type-message input{
+    width: 74%;
+    margin: 0 20px;
+    padding: 10px 20px;
+    font-size: 1.3rem;
+    border: 1px solid var(--gray-white-color);
+    border-radius: 14px;
+    outline: none;
+}
+/* --------------------End 2nd COLOUM--------------- */ 
+
+
+/* =============================END BOTTOM ROW============================================== */ 

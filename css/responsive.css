@@ -1,0 +1,92 @@
+
+@media (max-width:576px){
+    #search-box,#all-chat-box,#new-chat,.top-header{
+        display: none !important;
+    }
+    #chat-box{
+        border-radius: 20px;
+        background-color: var(--gray-white);
+    }
+    #chat-title{
+        width: 100% !important;
+        border-radius: 10px 10px 0 0;
+    }
+    #chat-title span{
+        top: -109%;
+        left: 10%;
+    }
+    #chat-title p{
+        font-weight: bold;
+        padding: 10px 20px;
+        font-size: 2.5rem;
+    }
+    #chat-title img{
+        width: 35px;
+    }
+    .message-text{
+        font-size: 12px !important;
+    }
+}
+
+
+@media (max-width:991px){
+    body{
+        background-size: cover;
+        background-repeat: none !important;
+    }
+    #all-chat-box{
+        overflow-x: hidden;
+    }
+    .chat-person{
+        height: 140px !important;
+        max-width: 180px !important;
+        font-size: 5px !important;
+   }
+   .chat-name{
+       display: inline-block !important;
+       font-size: 13px !important;
+   }
+   .chat-text{
+       display: inline !important;
+       padding-left: 10px !important;
+       padding-right: 10px !important;
+       margin: 0 !important;
+   }
+   .chat-details{
+        display: inline-block !important;
+       padding: 0 0 !important;
+       margin: 0 !important;
+   }
+    .chat-person img{
+        display: block !important;
+        padding-left: 0;
+        margin-top: 10px !important;
+        height: 50px !important;
+        width: 50px !important;
+    }
+    .chat-date{
+        display: none;
+    }
+    .chat-info{
+        font-size: 10px !important;
+        left: 20% !important;
+        opacity: 0.6;
+    }
+    #new-chat p{
+        display: inline-block;
+        left: 50% !important;
+        width: 50px ;
+        height: 50px ;
+        transform: translateX(-30px);
+    }
+    .new-chat p{
+        display: none;
+        font-size: 1.1rem !important;
+    }
+    #chat-title{
+        border-radius:10px 10px 0 0 !important;
+    }
+    #type-message{
+        border-radius: 0 0 10px 10px !important;
+    }
+}

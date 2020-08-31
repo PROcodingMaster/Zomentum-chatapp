@@ -1,0 +1,9 @@
+
+
+/* CSS variables */ 
+:root{
+    --gradient-color:linear-gradient(to right, rgb(74, 169, 236), rgb(13, 228, 171));
+    --gray-white-color: #eee;
+    --blue-color:#0048AA;
+    --hover-color:rgba(0, 0, 0, 0.279);
+}
