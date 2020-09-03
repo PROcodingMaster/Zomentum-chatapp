@@ -4,7 +4,7 @@ This chatapp is made with the following languages :
 --> HTML || CSS || Bootstrap || JavaScript
 
 Features :
-1)This a is FULL RESPONSIVE and works on all devices such as mobile, tablets, laptops & desktops.
+1)This a is FULLY RESPONSIVE app that works on all devices such as mobile, tablets, laptops & desktops.
 2) Hover effect on contact name.
 3)Fully scrollable chat and contact list.
 4) Made on VS code editor.
