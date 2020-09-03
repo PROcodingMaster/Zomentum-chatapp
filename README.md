@@ -5,16 +5,16 @@ This chatapp is made with the following languages :
 
 Features :
 
-1)This a is FULLY RESPONSIVE app that works on all devices such as mobile, tablets, laptops & desktops.
+ (1)This a is FULLY RESPONSIVE app that works on all devices such as mobile, tablets, laptops & desktops.
 
-2) Hover effect on contact name.
+ (2) Hover effect on contact name.
 
-3)Fully scrollable chat and contact list.
+ (3)Fully scrollable chat and contact list.
 
-4) Made on VS code editor.
+ (4) Made on VS code editor.
 
 
 Steps to run the project -
-1) Download the files on your local computer.
-2) Open "index.html" with any browser ( chrome prefferably).
-3)Enjoy the app.
+ (1) Download the files on your local computer.
+ (2) Open "index.html" with any browser ( chrome prefferably).
+ (3)Enjoy the app.
